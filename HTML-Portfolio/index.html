@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Portfolio website">
+        <title>Divya's Portfolio</title>
+        <style>
+            body{
+                padding: 0;
+                margin:0;
+                overflow-x: hidden;
+
+            }
+            #nav{
+                list-style-type: none;
+                background: rgba(7, 16, 101, 1);
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(6.2px);
+                -webkit-backdrop-filter: blur(6.2px);
+                border: 1px solid rgba(7, 16, 101, 0.37);
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                overflow: hidden;
+            }
+            #nav li a{
+                display: flex;
+                flex-direction: flex-end;
+                color: white;
+                float: right;
+                text-align: center;
+                padding: 14px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul id="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </header>
+        <main style="margin-left: 50px;">
+            <section style="display: flex;align-items: center;gap: 50px;"> 
+                <img src="download.jpeg" style="border-radius: 50%;margin-left: 50px;">
+                <div>
+                    <h1 style="text-align: center;">Divya Darshini M</h1>
+                    <hr>
+                    <p style="text-align: center;">Aspiring Web Developer</p>
+                    <br><br>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h3>About Me</h3>
+                <hr>
+                <p>Hello. I'm Divya Darshini M.I am passionate about web development and love creating user-friendly websites, In my free time. I enjoy drawing and fond of reading books.</p>
+                <br><br>
+            </section>
+            <hr>
+            <section>
+                <h3>My Skills</h3>
+                <hr>
+                <ul style="background-color:none;">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>Git and Github</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <h3>
+                    Contact Me
+                </h3>
+                <form>
+                    <label for="name-label">Name:</label><br>
+                    <input type="text" id="name"><br>
+                    <label for="email-label">Email:</label><br>
+                    <input type="email" id="email"><br>
+                    <label for="msg-label">Message:</label><br>
+                    <textarea ></textarea>
+                    <br>
+                    <input type="submit" style="background-color: blue;color: white;border-radius: 10px; width: 100px;height: 25px; justify-content: center;">
+                    <br>
+                </form>
+            </section>
+            
+        </main>
+        <hr>
+        <footer style="margin-left: 50px;">
+            <p style="text-align: center;">&copy; 2024 Divya Darshini</p>
+        </footer>
+    </body>
+</html>
